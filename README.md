@@ -1,0 +1,1 @@
+# tr-mfg-capabilities
