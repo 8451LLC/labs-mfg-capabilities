@@ -1,0 +1,31 @@
+[project]
+name = "mfg-capabilities"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tim Reddick", email = "tim.reddick@8451.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "databricks-sdk>=0.55.0",
+    "databricks-sqlalchemy>=2.0.6",
+    "fastexcel>=0.14.0",
+    "fastmcp>=2.5.1",
+    "ipykernel>=6.29.5",
+    "langchain-community>=0.3.24",
+    "langchain-openai>=0.3.18",
+    "langgraph>=0.4.7",
+    "langgraph-prebuilt>=0.2.2",
+    "polars>=1.30.0",
+    "pyprojroot>=0.3.0",
+    "python-dotenv>=1.1.0",
+    "sqlalchemy>=2.0.41",
+]
+
+[project.scripts]
+tr-mfg-capabilities = "tr_mfg_capabilities:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
