@@ -21,6 +21,7 @@ dependencies = [
     "pyprojroot>=0.3.0",
     "python-dotenv>=1.1.0",
     "sqlalchemy>=2.0.41",
+    "thefuzz>=0.22.1",
 ]
 
 [project.scripts]
